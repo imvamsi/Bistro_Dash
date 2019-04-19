@@ -1,0 +1,22 @@
+/*always do this first*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #696767;
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lato', 'Arial', sans-serif;
+    
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
