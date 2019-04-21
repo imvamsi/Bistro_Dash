@@ -19,6 +19,14 @@ html{
     font-family: 'Lato', 'Arial', sans-serif;
     
 }
+.clearfix{zoom:1}
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
 /*-----------------------------------*/
 /*-----------Re-usable component-----------*/
 /*------------------------------------*/
@@ -261,8 +269,98 @@ header{
     transform: scale(1);
 }
 
+/*-----------------------------------*/
+/*-----------How it Works-----------*/
+/*------------------------------------*/
 
 
+
+
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen{
+    width: 40%;
+}
+
+
+.works-step{
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type{
+    margin-bottom: 80px;
+}
+
+.works-step div{
+    color: #e67e22;
+    border-radius: 50%;
+    float: left;
+    border: 2px solid #e67e22;
+    
+    padding: 5px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    font-size: 150%;
+    text-align: center;
+    margin-right: 20px;
+    
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+
+.section-steps{
+    background-color: #edeaea;
+}
+
+
+/*-----------------------------------*/
+/*-----------Cities section-----------*/
+/*------------------------------------*/
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px ;
+}
+
+.city-feature{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    
+}
+
+.icon-small{
+    color: #e67e22;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 120%;
+    
+/*    best way to align text and icon*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 10px;
+    
+   
+    
+    
+}
 
 
 
