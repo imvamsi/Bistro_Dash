@@ -348,7 +348,7 @@ header{
 .icon-small{
     color: #e67e22;
     display: inline-block;
-    width: 30px;
+    width: 20px;
     text-align: center;
     font-size: 120%;
     
@@ -378,7 +378,7 @@ header{
 blockquote{
     padding: 2%;
     font-style: italic;
-    line-height: 145%;
+    line-height: 120%;
     margin-top: 40px;
     position: relative;
 }
@@ -386,7 +386,7 @@ blockquote{
 cite{
     font-size: 90%;
     display: block;
-    margin-top: 25px;
+    margin-top: 15px;
 
     
 }
@@ -397,18 +397,53 @@ cite img{
     margin-right: 10px;
 }
 
+/*-----------------------------------*/
+/*-----------Sign up section-----------*/
+/*------------------------------------*/
 
 
+.section-plans{
+    background-color: #f4f4f4;
+}
+
+.plan-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+}
+
+.plan-price{
+    font-size: 300%;
+    margin-top: 20px;
+    font-weight: 100;
+    color: #e67e22;
+}
 
 
+.plan-price-meal{
+    font-size: 80%;
+}
+
+.plan-price span{
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-box ul{
+    list-style: none;
+}
 
 
-
-
-
-
-
-
+.plan-box ul li{
+    padding: 5px 0px;
+}
 
 
 
