@@ -133,7 +133,9 @@ p{
 
 
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type=submit]
+{
     padding: 10px 30px;
     display: inline-block;
     font-weight: 300;
@@ -145,12 +147,14 @@ p{
 }
 
 .btn:hover,
-.btn:active{
+.btn:active,
+input[type=submit]{
     background-color: #cf6d17;
 }
 
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited,
+input[type=submit]{
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
@@ -159,7 +163,8 @@ p{
 }
 
 .btn-ghost:link
-.btn-ghost:visited{
+.btn-ghost:visited,
+input[type=submit]{
     border: 1px solid #e67e22;
    
 }
@@ -446,5 +451,101 @@ cite img{
 }
 
 
+/*-----------------------------------*/
+/*-----------Form-----------*/
+/*------------------------------------*/
 
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width: 140%;
+    padding 7px!important;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    height: 40px;
+    padding-left: 6px;
+}
+
+textarea{
+    height: 100px;
+}
+
+input[type=checkbox]{
+    margin: 10px 5x 10px 0!important;
+}
+
+*:focus{outline: none;
+}
+
+.news{
+    margin-right: 10px;
+}
+
+
+
+/*-----------------------------------*/
+/*-----------Footer-----------*/
+/*------------------------------------*/
+
+
+footer{
+    background-color: #333;
+    color: #e67e22;
+    padding: 60px;
+}
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.footer-nav a,
+.social-links a{
+    color: #989593;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 20px;
+     color: #989593;
+}
+
+.social-links li a:link,
+.social-links li a:hover{
+    font-size: 160%;
+}
+
+.ion-social-facebook:hover{
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover{
+    color: #00aced;
+}
+
+.ion-social-instagram:hover{
+    color:#006699;
+    
+}
+.ion-heart{
+    color: rgb(196, 30, 30);
+}
 
